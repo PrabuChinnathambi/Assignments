@@ -1,0 +1,51 @@
+.upload_page{
+    color: white;
+    text-align: unset;
+    display: flex;
+    margin-top: 80px;
+}
+.upload_page .fileContainer img{
+    margin-top: 90px;
+}
+.upload_page .upload_button{
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 26px;
+    width: 350px;
+    padding: 15px 20px 15px 20px;
+}
+.upload_page .upload_leftSide{
+    margin: 20px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.upload_page .upload_rightSide{
+    margin: 20px;
+    margin-top: 30px;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.upload_page .upload_rightSide .video{
+    margin: 10px;
+}
+.upload_page .fileContainer{
+    cursor: pointer;
+    display:inline-block;
+    height: 300px;
+    width: 350px;
+    margin: 20px;
+    border-radius:3px;
+    border: 5px dotted #fff;
+    background:
+   linear-gradient(#fff,#fff) padding-box /* Don't extend this to border */,
+   linear-gradient(to bottom, #4fc3f7, #ab5ca4 49%, #ff512f) border-box; 
+}

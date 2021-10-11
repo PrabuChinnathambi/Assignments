@@ -1,0 +1,16 @@
+.login_page .login_container{
+    margin: 50px;
+    padding: 40px 100px 40px 100px;
+    display: inline-block;
+}
+
+.login_page .login_container .loginSignup_button{
+    display: flex;
+}
+.login_page .login_container .loginSignup_button .button{
+    margin: 10px;
+}
+
+.login_container .inputFeild{
+    width: 300px;
+}
